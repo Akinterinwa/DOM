@@ -49,3 +49,4 @@ minusButton.addEventListener("click", () => {
 
 // Initial update of the total price
 updateTotalPrice();
+

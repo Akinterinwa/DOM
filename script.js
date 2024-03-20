@@ -56,3 +56,5 @@ changeHeart.addEventListener("click", () => {
     changeHeart.style.color = isColor1 ? "#959595" : "#f7932d";
     isColor1 = !isColor1;
 });
+
+

@@ -4,6 +4,7 @@
 }
 body{
     background-color: #f1f1f2;
+    font-family: 'Roboto', sans-serif;
 }
 .main{
     display: grid;
@@ -104,7 +105,6 @@ body{
 }
 .buttons p{
     font-size: 18px;
-    font-family: math;
     padding: 10px;
 }
 .add-but{
@@ -159,4 +159,31 @@ body{
 }
 .summary .checkout p:hover{
     background: #de9a567a;
+}
+
+@media only screen and (max-width: 1200px) {
+    /* CSS rules for small devices */
+   body {
+    background-color: black;
+   }
+   .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .cart-section {
+    margin: 0;
+   }
+   .summary{
+    margin: 10px 0  0 0;
+   }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .item-container {
+        flex-direction: column;
+        align-items: center;
+       }
 }

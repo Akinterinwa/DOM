@@ -1,107 +1,118 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: #f1f1f2;
-    margin: 2cm;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.main{
+p {
+    font-size: small;
+}
+
+.main {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
-.shopping-container{
+.shopping-container {
     background-color: #ffffff;
     padding: 1cm;
     border-radius: 7px;
 }
 
-.double-content{
+.double-content {
     display: flex;
 }
 
-.content-1 h2{
-    font-family: math;
+.content-1 h2 {
     font-weight: 100;
     line-height: 30px;
 }
-.content-1 .brand{
+
+.content-1 .brand {
     margin: 10px 0 10px 0;
 }
 
-#formattedPrice{
-    font-family: math;
+#formattedPrice {
     font-size: 25px;
     font-weight: 700;
 }
 
-.content-2 .price{
+.content-2 .price {
     display: flex;
     align-items: center;
     gap: 9px;
     margin-bottom: 3px;
 }
-.content-2 .new-price{
+
+.content-2 .new-price {
     margin: 1px 0 16px 0;
 }
-.content-2 .price .fixed{
+
+.content-2 .price .fixed {
     color: #898076;
     font-size: 18px;
     text-decoration: line-through;
     font-weight: 600;
 }
-.content-2 .discount{
+
+.content-2 .discount {
     color: #F7A046;
     background: #fef3e9;
 }
 
-.content-2 .units{
+.content-2 .units {
     margin: 12px 0 12px 0;
     color: #e8c67c;
 }
-#formattedTotalPrice{
-   font-family: sans-serif;
-   font-size: 20px;
-   font-weight: 700;
+
+#formattedTotalPrice {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
 }
 
-.img img{
+.img img {
     width: 9cm;
     height: 9cm;
 }
 
-.h4{
+.h4 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
 }
-.h4 .heading{
+
+.h4 .heading {
     display: flex;
     gap: 1cm;
 }
 
-.heading .first-h4{
+.heading .first-h4 {
     font-size: 14px;
     padding: 3px;
     background-color: #276b83;
     color: #ffffff;
 }
-.heading .second-h4{
+
+.heading .second-h4 {
     font-size: 14px;
     padding: 3px;
     background-color: #f7a046;
     color: #ffffff;
 }
 
-.content-3{
+.content-3 {
     display: flex;
     margin: 15px 0 15px 0;
     gap: 10px;
 }
 
-.content-3 .button{
+.content-3 .button {
     text-decoration: none;
     margin-left: 3cm;
     color: #f1f1f2;
@@ -110,23 +121,27 @@ body{
     border-radius: 7px;
     font-size: 15px;
     font-weight: 400;
-    font-family: math;
 }
-.content-3 .button:hover{
+
+.content-3 .button:hover {
     background: #eda45ab6;
 }
-.sangotedo{
+
+.sangotedo {
     font-size: 14px;
 }
-.sangotedo2{
+
+.sangotedo2 {
     color: #F68B1E;
     font-size: 17px;
     padding: 10px 0;
 }
-.sangotedo2 span{
+
+.sangotedo2 span {
     color: blue;
 }
-#plusButton{
+
+#plusButton {
     font-size: 28px;
     background: #F68B1E;
     padding: 0 5px;
@@ -134,7 +149,8 @@ body{
     border-radius: 3px;
     color: #fff;
 }
-#minusButton{
+
+#minusButton {
     font-size: 28px;
     background: #F68B1E;
     padding: 0 8px;
@@ -142,51 +158,60 @@ body{
     border-radius: 3px;
     color: #fff;
 }
-#quantity{
+
+#quantity {
     font-size: 18px;
-    font-family: math;
     padding: 10px;
 }
-.line{
+
+.line {
     border: 0.1px solid #eeededc8;
     margin: 10px 0;
 }
-.line1{
+
+.line1 {
     border: 0.1px solid #eeededc8;
-    margin: 30px 0; 
+    margin: 30px 0;
 }
-.thick{
+
+.thick {
     font-size: 15px;
     font-weight: 800;
 }
-.heart{
+
+.heart {
     content: "\f004";
     font-size: 27px;
 }
-.fa-brands{
+
+.fa-brands {
     font-size: 23px;
 }
 
 
-.side-menu{
+.side-menu {
     background-color: #ffffff;
     padding: 10px 20px;
     border-radius: 7px;
     margin: 0 2cm;
 }
-.side-menu h3{
+
+.side-menu h3 {
     font-size: 16px;
     font-weight: 600;
     padding-bottom: 10px;
     font-family: sans-serif;
 }
-.side-menu p{
+
+.side-menu p {
     font-size: 14px;
 }
-.states{
-    display:grid;
+
+.states {
+    display: grid;
 }
-.states select#state{
+
+.states select#state {
     height: 50px;
     padding: 10px;
     font-size: 17px;
@@ -194,15 +219,118 @@ body{
     margin-bottom: 12px;
 }
 
-.side-menu .delivery-method .delivery-content{
+.side-menu .delivery-method .delivery-content {
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
 }
 
-.delivery-img i{
+.delivery-img i {
     font-size: 23px;
     border: 1px solid #d9d9db;
-    padding:6px;
+    padding: 6px;
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+    /* CSS rules for extra small devices */
+    .main {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .double-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .img-section {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img img {
+        width: 5cm;
+        height: 5cm;
+    }
+    .shopping-container {
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .content-1 h2 {
+        font-weight: 100;
+        line-height: 28px;
+        font-size: 20px;
+    }
+    .content-1 .brand {
+        font-size: 13px;
+    }
+    #formattedPrice {
+        font-size: 18px;
+    }
+    .content-2 .price .fixed {
+        font-size: 15px;
+    }
+    #formattedTotalPrice {
+        font-size: 16px;
+    }
+    .content-3 {
+        display: block;
+    }
+    .side-menu {
+        margin: 0;
+    }
+    .states select#state {
+        padding: 0;
+    }
+    .side-menu p {
+        font-size: 12px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* CSS rules for small devices */
+    .main {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .double-content {
+        display: flex;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* CSS rules for medium devices */
+    .main {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .double-content {
+        display: flex;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    /* CSS rules for large devices */
+    .main {
+        display: grid;
+        gap: 3rem;
+    }
+    .double-content {
+        display: flex;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1000px) {
+    /* CSS rules for extra large devices */
+    .double-content {
+        display: flex;
+    }
 }
